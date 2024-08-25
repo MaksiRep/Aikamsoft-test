@@ -1,0 +1,10 @@
+{
+  "criterias": [
+    {"lastName": "Иванов"},
+    {"lastName": "Кузнецов"},
+    {"productName": "Холодильник", "minTimes": 2},
+    {"productName": "Смартфон", "minTimes": 3},
+    {"minExpenses": 10000, "maxExpenses": 50000},
+    {"badCustomers": 3}
+  ]
+}

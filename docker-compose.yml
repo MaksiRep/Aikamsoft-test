@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  postgres:
+    container_name: database
+    image: postgres:12.1-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: dev
+      POSTGRES_USER: dev
+      POSTGRES_PASSWORD: dev
